@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Javascript Form Validation</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="head1">Assignment-3</h1>
+    <h2 class="head2">Submitted By: <b>Vikas Kumar Gond, 2006116</b></h2>
+    <hr>
+    <div id="formBody">
+        <h1>Form Validation Using Javascript</h1>
+        <form name="VkgForm" action=" " onsubmit="return formValidate()" method="post">
+            <p>First Name: <input type="text" size="65" name="Name" /></p>
+            <br />
+            <p>Address: <input type="text" size="65" name="Address" />
+            </p>
+            <br />
+            <p>Zip Code: <input type="number" name="Zip" />
+            </p>
+            <br />
+            <p>
+                State:
+                <select type="text" value="" name="State">
+                    <option value="State">Enter Your State</option>
+                    <option value="Uttar Pradesh"> Uttar Pradesh</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Goa">Goa</option>
+                </select>
+            </p>
+            <br />
+            <p>Username(6-8 Characters): <input type="text" name="Username" /></p>
+            <br />
+            <p>E-mail: <input type="email" name="Email" /></p>
+            <br />
+            <input id="submitBTN" type="submit" value="Check Form" name="Submit" />
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
